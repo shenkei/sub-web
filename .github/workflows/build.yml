@@ -2,7 +2,7 @@ name: Build
 
 on:
   push:
-    branches: [ master, dev ]
+    branches: [ shenkei, dev ]
 
 jobs:
 
