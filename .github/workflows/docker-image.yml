@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Check out repository
-      uses: actions/checkout@master
+      uses: actions/checkout@shenkei
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v2
