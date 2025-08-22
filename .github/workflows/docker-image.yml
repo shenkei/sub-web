@@ -1,9 +1,8 @@
 name: Build and Push Multi-Arch Docker Image
 
 on:
-  push:
-    branches:
-      - master
+  workflow dispatch :
+
 
 jobs:
   build-and-push:
