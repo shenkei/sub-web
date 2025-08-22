@@ -28,7 +28,7 @@
               <div v-if="advanced === '2'">
                 <el-form-item label="后端地址:">
                   <el-autocomplete style="width: 100%" v-model="form.customBackend" :fetch-suggestions="backendSearch"
-                    placeholder="动动小手，（建议）自行搭建后端服务。例：http://127.0.0.1:25500/sub?">
+                    placeholder="动动小手，（建议）自行搭建后端服务。例：http://192.168.0.36:58081/sub?">
                     <el-button slot="append" @click="gotoGayhub" icon="el-icon-link">前往项目仓库</el-button>
                   </el-autocomplete>
                 </el-form-item>
@@ -232,7 +232,7 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "http://192.168.0.36:58081/sub?" }],
         remoteConfig: [
           {
             label: "universal",
