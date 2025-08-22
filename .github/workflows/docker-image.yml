@@ -27,4 +27,4 @@ jobs:
         context: .
         platforms: linux/amd64,linux/arm64
         push: true
-        tags: shenkui520/subweb:latest
+        tags: shenkui/subweb:latest
